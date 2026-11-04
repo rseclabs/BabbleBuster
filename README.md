@@ -1,6 +1,8 @@
-# BabbleBuster
+<p align="center"><img src="logo.png" width="160" alt="BabbleBuster logo: an orange speech bubble on black"></p>
 
-**Hold a key, talk, let go — clean, ready-to-send text appears in whatever app you're using.**
+<h1 align="center">BabbleBuster</h1>
+
+<p align="center"><b>Hold a key, talk, let go — clean, ready-to-send text appears in whatever app you're using.</b></p>
 
 BabbleBuster is a dictation app for the Mac menu bar. It turns speech into polished text entirely on
 your Mac: no account, no subscription, no cloud. Your voice and your words never leave your computer.
