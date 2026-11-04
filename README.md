@@ -85,14 +85,23 @@ Raw speech is messy. BabbleBuster tidies it up so it reads like you typed it:
 
 ## Install
 
+BabbleBuster is not notarized by Apple, so macOS blocks the download until you allow it.
+**Quickest way** — after downloading, run this once in Terminal, then open the DMG normally
+(no further prompts):
+
+```bash
+xattr -d com.apple.quarantine ~/Downloads/BabbleBuster-*.dmg
+```
+
 1. Download `BabbleBuster-<version>.dmg` from the [latest release](../../releases/latest) and open it.
-2. Drag **BabbleBuster** onto the **Applications** shortcut, then eject the disk image.
    *(Ignore the release's "Source code" links — GitHub adds them automatically and they only
    contain this README.)*
-3. Open it. BabbleBuster is not notarized by Apple, so the first time macOS will say it can't verify
-   the developer. Click **Done**, then go to **System Settings → Privacy & Security**, scroll down and
-   click **Open Anyway** next to BabbleBuster.
-   *(Or, in Terminal: `xattr -dr com.apple.quarantine /Applications/BabbleBuster.app`)*
+   If you skipped the command above, macOS says it "could not verify" the disk image: click
+   **Done**, open **System Settings → Privacy & Security**, scroll down, click **Open Anyway** next to
+   the BabbleBuster message and confirm.
+2. Drag **BabbleBuster** onto the **Applications** shortcut, then eject the disk image.
+3. Open BabbleBuster from Applications. If macOS blocks it the same way, use **Open Anyway** in
+   **Privacy & Security** once more.
 4. Follow the welcome window:
    - Grant **Microphone** (used only while you dictate) and **Accessibility** (to detect the dictation
      key and paste text). Some Macs also need **Input Monitoring**.
