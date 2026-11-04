@@ -83,8 +83,10 @@ Raw speech is messy. BabbleBuster tidies it up so it reads like you typed it:
 
 ## Install
 
-1. Download `BabbleBuster-<version>.zip` from the [latest release](../../releases/latest) and unzip it.
-2. Move **BabbleBuster.app** to your **Applications** folder.
+1. Download `BabbleBuster-<version>.dmg` from the [latest release](../../releases/latest) and open it.
+2. Drag **BabbleBuster** onto the **Applications** shortcut, then eject the disk image.
+   *(Ignore the release's "Source code" links — GitHub adds them automatically and they only
+   contain this README.)*
 3. Open it. BabbleBuster is not notarized by Apple, so the first time macOS will say it can't verify
    the developer. Click **Done**, then go to **System Settings → Privacy & Security**, scroll down and
    click **Open Anyway** next to BabbleBuster.
